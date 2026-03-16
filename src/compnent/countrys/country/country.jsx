@@ -35,9 +35,9 @@ const Country = ({ country, handlevijitedcountry, handleflag }) => {
           {country.area.area > 300000 ? "big country" : "small country"}{" "}
         </p>
         <button className="btn" onClick={handleclick}>
-          {vijited ? "vijited" : "not vijited"}
+          {vijited ? "visited" : "not visited"}
         </button>
-        <button className="btn" onClick={()=>{handleflag(country.flags.flags.png)}}>Add vijit flag</button>
+        <button className="btn" onClick={()=>{handleflag(country.flags.flags.png)}}>Add visited flag</button>
       </div>
     </div>
   );
