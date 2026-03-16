@@ -1,0 +1,22 @@
+.country{
+    border:  2px solid purple;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.country-vijited{
+    background: blue;
+
+}
+.btn{
+    background-color: gray;
+    padding: 8px;
+    margin: 5px;
+    border: green;
+    border-radius: 5px;
+}
+    
+    
+
